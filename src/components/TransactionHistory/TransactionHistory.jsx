@@ -27,5 +27,4 @@ export default TransactionHistory;
 
 TransactionHistory.propTypes = {
     transactions: PropTypes.arrayOf(PropTypes.object),
-    // transactions: PropTypes.array.isRequired,
 };
