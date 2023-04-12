@@ -26,6 +26,6 @@ const TransactionHistory = ({transactions}) => {
 export default TransactionHistory;
 
 TransactionHistory.propTypes = {
-    transactions: PropTypes.array.isRequired,
+    transactions: PropTypes.arrayOf(PropTypes.object),
+    // transactions: PropTypes.array.isRequired,
 };
-<ul className={styles.friendsList}></ul>;

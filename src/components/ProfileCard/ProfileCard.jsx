@@ -1,7 +1,7 @@
 import s from './ProfileCard.module.css';
 import ProfileInfo from '../ProfileInfo/ProfileInfo';
 
-// import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 
 const ProfileCard = ({ profile }) => {
   const {
@@ -29,6 +29,6 @@ const ProfileCard = ({ profile }) => {
 
 export default ProfileCard;
 
-// ProfileCard.propTypes = {
-//   profile: PropTypes.object.isRequired,
-// };
+ProfileCard.propTypes = {
+  profile: PropTypes.object.isRequired,
+};
