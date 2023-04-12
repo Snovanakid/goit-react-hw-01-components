@@ -1,0 +1,53 @@
+.statistics {
+  position: relative;
+
+  margin: 0 auto;
+  margin-top: 50px;
+  border-radius: 5px;
+  text-align: center;
+  max-width: 500px;
+
+  background-color: #f4f4f4;
+  box-shadow: 0px 0px 8px #212121;
+}
+
+.statsTitle {
+  display: block;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+.statList {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.statsItem {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  color: #fcfcfc;
+  font-size: 30px;
+}
+
+.statsItem:last-child {
+    border-bottom-right-radius: 5px;
+}
+
+.statsItem:first-child {
+    border-bottom-left-radius: 5px;
+}
+
+.percentage {
+  font-size: 30px;
+  text-shadow: rgb(0, 0, 0) 1px 0px 0px, rgb(0, 0, 0) 0.540302px 0.841471px 0px, rgb(0, 0, 0) -0.416147px 0.909297px 0px, rgb(0, 0, 0) -0.989992px 0.14112px 0px, rgb(0, 0, 0) -0.653644px -0.756802px 0px, rgb(0, 0, 0) 0.283662px -0.958924px 0px, rgb(0, 0, 0) 0.96017px -0.279415px 0px;
+}
+
+.statsLabel {
+  text-shadow: rgb(0, 0, 0) 1px 0px 0px, rgb(0, 0, 0) 0.540302px 0.841471px 0px, rgb(0, 0, 0) -0.416147px 0.909297px 0px, rgb(0, 0, 0) -0.989992px 0.14112px 0px, rgb(0, 0, 0) -0.653644px -0.756802px 0px, rgb(0, 0, 0) 0.283662px -0.958924px 0px, rgb(0, 0, 0) 0.96017px -0.279415px 0px;
+}

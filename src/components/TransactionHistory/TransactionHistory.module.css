@@ -1,0 +1,14 @@
+.transactionHistory {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.transactionHeader {
+    background-color:deepskyblue;
+    text-transform: uppercase;
+}
+
+.transactionHeaderItem {
+    padding: 10px 20px;
+    color: #fcfcfc;
+}
