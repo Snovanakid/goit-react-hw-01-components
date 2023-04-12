@@ -27,5 +27,5 @@ function getRandomHexColor() {
 
 Statistics.propTypes = {
     title: PropTypes.string,
-    stats: PropTypes.array.isRequired,
+    stats: PropTypes.arrayOf(PropTypes.object),
 };
